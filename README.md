@@ -6,6 +6,12 @@ Only Add the script to PATH
 
       export PATH=$PATH:[FileLocation]
 
-like: export PATH=$PATH:/home/User/autoCreateScript
+like: 
+      
+      export PATH=$PATH:/home/User/autoCreateScript
 
-or move this file into the directory /usr/sbin/
+or move this file into the directory   /usr/sbin/
+
+like:
+
+      /usr/sbin/mkw.sh
