@@ -1,7 +1,7 @@
 #!/bin/sh
 if [  -z "$1" ] #verify argument is valid
 then
-        echo "no exist"
+        echo "argument no valid"
 else
     mkdir ./$1
     touch ./$1/index.html
@@ -406,5 +406,6 @@ template {
 }' >> ./$1/normalize.css
 
     touch ./$1/index.js
-fi
 echo "se ha creado el proyecto"
+fi
+
